@@ -9,8 +9,8 @@ var path = require("path");
 
 var finalEnv = process.env.NODE_ENV || "development";
 
-var PORT = PORT_NUMBER;
-var DB_CONNECT = 'mysql://USER_NAME:PASSWORD@localhost/DATABASE_NAME';
+var PORT = 7022;
+var DB_CONNECT = 'mysql://group23:group23_pw@localhost/group23_db';
 var COOKIE_SECRET = "SessionCookieSecretKey";
 var HOSTNAME = "localhost";
 
